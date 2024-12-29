@@ -34,7 +34,7 @@ static struct tcp_pcb *tcp_pcb;
 static bool wifi_connected = false;
 
 const char IFTTT_HOST[] = "maker.ifttt.com"; // IFTTT Webhooks API Host
-const char IFTTT_PATH[] = "/trigger/TRASH/with/key/bvDVtdmsqp9WCJjtsXWKv-";  // Webhook event path https://maker.ifttt.com/trigger/TRASH/with/key/bvDVtdmsqp9WCJjtsXWKv-
+const char IFTTT_PATH[] = "/trigger/..."; // Make an Applet of a webhook and your desired notification and use the Applet's API key provided upon creation   
 const int IFTTT_PORT = 80;
 // Callback for TCP connection
 // Callback for TCP connection
