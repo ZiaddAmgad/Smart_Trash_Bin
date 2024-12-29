@@ -23,7 +23,7 @@ int main() {
     led_init();
 
     // Initialize WiFi and notification system
-    if (!notification_init("Ziad's Galaxy A54 5G", "12345678")) { // Use your own WiFi SSID and password
+    if (!notification_init("XXXXXXXX", "********")) { // Use your own WiFi SSID and password
         printf("Failed to initialize notification system\n");
         // Continue anyway, as the core functionality should still work
     }
